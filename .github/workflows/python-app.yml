@@ -24,7 +24,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: generate
       run: |
-        ./generate.sh
+        sudo home/generate.sh
+       # ./generate.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
