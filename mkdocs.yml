@@ -2,6 +2,12 @@ site_name: SaltedFish's Wiki
 site_url: https://saltedfish.wiki
 site_author: SaltedFish
 
+plugins:
+    - search
+extra:
+  search:
+    language: 'zh'
+
 theme:
   name: material
   feature:
@@ -12,9 +18,9 @@ theme:
     primary: 'indigo'
     accent: 'blue'
   language: 'zh'
-extra:
-  search:
-    language: 'jp'
+
+extra_javascript:
+  - 'js/cnzz-statistics.js'
 
 markdown_extensions:
   - admonition
