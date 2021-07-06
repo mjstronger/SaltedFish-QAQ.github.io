@@ -1,25 +1,20 @@
 site_name: SaltedFish's Wiki
-docs_dir: wiki
-plugins:
-    - search
-extra:
-  search:
-    language: 'zh'
+site_url: https://saltedfish.wiki
+site_author: SaltedFish
 
 theme:
-  name: 'material'
-  palette:
-    primary: 'Light Green'
-    accent: 'Pink'
+  name: material
   feature:
-    tabs: false
-  #font:
-    #text: 'Ubuntu'
-    #code: 'Ubuntu Mono'
+    tabs: true
+  palette:
+    accent: deep purple
+    scheme: slate
+    primary: 'indigo'
+    accent: 'blue'
   language: 'zh'
-
-extra_javascript:
-  - 'js/cnzz-statistics.js'
+extra:
+  search:
+    language: 'jp'
 
 markdown_extensions:
   - admonition
@@ -39,11 +34,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_png
-      #emoji_generator: !!python/name:pymdownx.emoji.to_svg
-      #emoji_generator: !!python/name:pymdownx.emoji.to_png_sprite
-      #emoji_generator: !!python/name:pymdownx.emoji.to_svg_sprite
-      #emoji_generator: !!python/name:pymdownx.emoji.to_awesome
-      #emoji_generator: !!python/name:pymdownx.emoji.to_alt
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -52,3 +42,5 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
+nav:
+  
