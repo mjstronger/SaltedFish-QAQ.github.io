@@ -51,7 +51,7 @@ INFO    -  Start watching changes
 
 至此可以通过访问https://127.0.0.1:8000访问本地服务器上运行的wiki了。其效果如下图所示
 
-![wiki效果](pictures\wiki\wiki0.png)
+![img](pictures\wiki\wiki0.png)
 
 关于如何配置wiki主题，参照如下网址：
 
@@ -73,7 +73,7 @@ mkdocs.yml文件中修改wiki配置，docs文件夹下是个人wiki文档。docs
 
 在wiki仓库中点击setting->pages，如下图所示
 
-![pages设置](pictures\wiki\wiki1.png)
+![img](pictures\wiki\wiki1.png)
 
 source中的选项依照图中设置就好
 
