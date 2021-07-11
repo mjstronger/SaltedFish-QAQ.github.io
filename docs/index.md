@@ -14,7 +14,7 @@ bgg的项目为linux下环境，故本人鼓捣的时候困难重重。所以偷
 
 以下排名区分优先级
 
-- [ ] 感谢bgg和aWei的帮助，后续更新如何使用mkdocs及github的pages发布wiki，以防止以后忘记了。就暂定这个周末吧XD
+- [x] 感谢bgg和aWei的帮助，后续更新如何使用mkdocs及github的pages发布wiki，以防止以后忘记了。就暂定这个周末吧XD
 
 - [ ] 整理《全球通史相关笔记》
 
