@@ -47,18 +47,18 @@ INFO    -  Start watching changes
 
 关于如何配置wiki主题，参照如下网址：
 
-网址暂缺
+[mkdocs主题配置](https://mkdocs-like-code.readthedocs.io/zh_CN/latest/MkDocs-advanced-operations/theme-configuration/)
 
 ## 基于GitHub pages发布本wiki
 
 
-上传wiki项目到github个人仓库，在本仓库中创建github action脚本。每次更新后自动发布，在仓库的.github/**文件夹下。windows相关文件，参考awei的wiki，或者本人的github仓库。
+上传wiki项目到github个人仓库，在本仓库中创建github action脚本。每次更新后自动发布，在仓库的.github/**文件夹下。windows相关文件，参考本人的github仓库。
 
 https://github.com/mjstronger/mjstronger.github.io
 
 mkdocs.yml文件中修改wiki配置，docs文件夹下是个人wiki文档。docs/CNAME删除即可。其他的基本照抄就好了
 
-然后用git进行推送
+然后用git进行推送，我用的github desktop软件推送的，你喜欢的话可以直接在git bash上推送。
 
 ## 设置GitHub pages
 
